@@ -1,0 +1,12 @@
+{
+    type: material
+    name: алмаз
+    description: довольно редкая вещь для реального мира но на этой планете она встречается часто
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    charge: 0.1
+    hardness: 1
+    alwaysUnlock: true
+}
