@@ -1,0 +1,12 @@
+{
+    type: material
+    name: алмаз
+    description: нет информации об этой руде
+    color: 000000
+    explosiveness: 0f
+    flammability: 0f
+    radioactivity: 0f
+    charge: 0f
+    hardness: 1
+    alwaysUnlock: true
+}
