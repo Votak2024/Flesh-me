@@ -1,0 +1,12 @@
+{
+    type: material
+    name: рудний
+    description: ваша начальная руда от которой ваше развитие зависит
+    color: 000000
+    explosiveness: 0.1
+    flammability: 0f
+    radioactivity: 0.2
+    charge: 0.1
+    hardness: 1
+    alwaysUnlock: true
+}
