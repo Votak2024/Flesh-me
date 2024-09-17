@@ -1,0 +1,46 @@
+type: flying
+health: 480
+name: тарон
+description: ваш начальный юнит
+alwaysUnlocked: true
+controller: BuilderAI
+defaultController: BuilderAI
+isEnemy: true
+mineWalls: true
+mineFloor: true 
+flying: true
+buildSpeed: 1
+accel: 0.04
+drag: 0.12
+speed: 7
+rotateSpeed: 4
+armor: 1
+itemCapacity: 75
+outlineColor: 1f1f1f
+mineSpeed: 4
+mineTier: 1
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    mirror: false
+    shootEffect: sparkShoot
+    smokeEffect: shootSmallSmoke
+    reload: 30
+    inaccuracy: 9
+    bullet: {
+      type: MissileBulletType
+      damage: 10
+      splashDamage: 5
+      splashDamageRadius: 5
+      sideAngle: 45
+      sideWidth: 8
+      sideLength: 8
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifeTime: 190
+      shootSound: missile
+}
+}
+]
