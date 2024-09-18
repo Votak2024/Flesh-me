@@ -1,0 +1,55 @@
+type: CoreBlock
+
+localizedName: ядро
+
+category: effect
+
+health: 3400
+
+size: 2
+
+
+
+itemCapacity: 3500          //Вместимость ядра
+
+unitCapModifier: 15          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+
+unitType: "тарон"
+
+incinerateNonBuildable: false        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+
+isFirstTier: true           //Первое ядро? (У нас да, значит true)
+
+squareSprite: false             //Квадратный спрайт? (Ставьте false)
+
+
+
+//Что нужно для постройки (пока оставим пустым)
+
+requirements: [
+
+рудний/1200
+
+железо/800
+
+]
+
+
+
+
+
+//К чему прикрипленно? (в нашем случае к нашей планете)
+
+research: {
+
+    root: true
+
+    name: 
+
+	planet: 
+
+}
+
+
+
+alwaysUnlocked: true            //Всегда открыто? (для первого ядра всегда оставляем true)
