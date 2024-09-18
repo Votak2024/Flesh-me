@@ -1,0 +1,38 @@
+  type: Drill
+  name: бур
+  size: 2
+  tier: 1    
+  drillTime: 150    
+  itemCapacity: 20      
+  rotateSpeed: 2.8      
+  warmupSpeed: 0.001
+  liquidBoostIntensity: 1.4
+  liquidCapacity: 5   
+  outputLiquid: water
+  outputLiquidPerTick: 0.5
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+  upgrade: {
+    effects: {
+      drillSpeed: 1.4
+    }
+  }
+  requirements: [
+    рудний/10
+  ]
+  category: production
+  heath: 270
+  speed: 0.24
+  research: {
+      parent: ядро
+      requirements: [
+          рудний/12
+ ]
+}
