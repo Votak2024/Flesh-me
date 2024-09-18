@@ -1,0 +1,74 @@
+generator: PlanetGenerator
+localizedName: "нардон"
+parent: sun
+iconColor: BA6156FF
+orbitRadius: 32
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.2
+atmosphereColor: 5B5B5BFF
+drawOrbit: true
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: "ядро"
+sectorSeed: 0
+startSector: 0
+sectorSize: 2
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: нардон
+  seed: 2
+  speed: 4
+  radius: 0.06
+  divisions: 5
+  color: DF5200FF
+  octaves: 2
+  persistence: 1
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: нардон
+    seed: 562697
+    color1: BA6156FF
+    color2: AC0000FF
+    divisions: 5
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
+
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]
