@@ -1,0 +1,29 @@
+type: BeamNode
+name: провод
+description: передает энергию из здания в зданию
+
+squareSprite: false
+allowDiagonal: true
+drawDisabled: false
+underBullets: true
+size: 1
+health: 125
+//maxNodes: 6
+//laserRange: 12
+range: 10
+//laserColor1: f7e08d
+//laserColor2: ff9257
+laserColor1: 7dd8ff               //светлый цвет
+laserColor2: 5d5dc2               //тёмный цвет
+category: power
+requirements: [
+    рудний/8
+  ]
+category: power
+researchCostMultiplier: 0.3
+research: {
+      parent: дымо энергия
+       requirements: [
+         рудний/200
+  ]
+}
