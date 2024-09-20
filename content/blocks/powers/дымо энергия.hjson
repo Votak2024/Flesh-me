@@ -1,0 +1,105 @@
+type: ThermalGenerator
+
+name: дымо энергия
+
+description: производит энергию ставя на вентиляцию
+
+
+
+squareSprite: false
+
+
+
+size: 3
+
+attribute: steam
+
+displayEfficiencyScale: 1
+
+minEfficiency: 0.0001
+
+powerProduction: 0.3
+
+displayEfficiency: false
+
+generateEffect: turbinegenerate
+
+effectChance: 0.05
+
+category: power
+
+research: {
+
+      parent: ядро
+
+       requirements: [
+
+         рудний/1000
+
+  ]
+
+ }
+
+requirements: [
+
+  рудний/65
+
+]
+
+ambientSound: hum
+
+ambientSoundVolume: 0.07
+
+drawer: {
+
+  type: DrawMulti
+
+  drawers: [
+
+   {  type: DrawRegion
+
+      suffix: -bottom
+
+   }
+
+   {  type: DrawLiquidRegion
+
+      suffix: -liquid
+
+	  drawLiquid: water
+
+   }
+
+   {
+
+      type: DrawDefault
+
+   },
+
+   {
+
+      type: DrawBlurSpin
+
+      suffix: -rotator
+
+      rotateSpeed: 7.2
+
+      blurThresh: 0.02
+
+   }
+
+ ]
+
+},
+
+hasLiquids: true
+
+outputLiquid: slag/0.012 
+
+fogRadius: 2.7
+
+researchCost: [
+
+  рудний/65
+
+]
