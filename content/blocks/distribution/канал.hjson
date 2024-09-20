@@ -1,0 +1,23 @@
+  type: Duct
+  name: канал
+  description: проводит предметы через себя
+update: true
+hasItems: true
+itemCapacity: 2
+isDuct: true
+underBullets: true
+  category: distribution
+  speed: 4  
+  displayedSpeed: 1   
+  junctionReplacement: 
+  bridgeReplacement:
+  health: 40
+  acceptsItems: true
+  requirements: [
+    рудний/1
+]
+
+researchCostMultiplier: 0.3
+research: {
+parent: ядро
+}
