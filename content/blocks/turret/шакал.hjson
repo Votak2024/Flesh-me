@@ -1,0 +1,65 @@
+{
+  name: шакал
+  localizedName: шакал
+  description: ваша первая турель
+  ammoTypes:{
+    рудний:{
+      x: 0
+      y: -6
+      damage: 35
+      buildingDamageMultiplier: 1.1
+      hitColor: 3D6E70FF
+      hitEffect: pointShockwave
+      shootEffect: shootBigSmoke
+      width: 16
+      height: 14
+      range: 140
+      speed: 5
+      type: BasicBulletType
+  }
+ }
+shoot: {
+ type: ShootBarrel
+ shotDelay: 3
+    barrels: [
+    0, -6, 0,
+    0, -6, 0,
+    0, -6, 0,
+    0, -6, 0
+    ]
+}
+   requirements: [
+    рудний/140
+    железо/60
+]
+
+   research: {
+      parent: ядро
+        requirements: [
+           железо/300
+   ]
+  }
+
+consumes: {
+    liquid: {
+      liquid: water
+      turretSpeed: 1.3
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+  }
+
+  reload: 30
+  range: 140
+  shootEffect: casing1
+  category: turret
+  health: 1230
+  size: 3
+  itemCapacity: 5
+  hasLiquids: false
+  lightLiquid: water
+  type: ItemTurret
+
+}
