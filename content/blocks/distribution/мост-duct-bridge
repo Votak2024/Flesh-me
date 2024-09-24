@@ -20,7 +20,7 @@ underBullets: true
 
   researchCostMultiplier: 0.3
   research: {
-      parent: канал
+      parent: канал-duct
        requirements: [
          рудний/125
   ]
