@@ -9,8 +9,8 @@ underBullets: true
   category: distribution
   speed: 4  
   displayedSpeed: 1   
-  junctionReplacement: 
-  bridgeReplacement:
+  junctionReplacement: мост-duct-bridge
+  bridgeReplacement: мост-duct-bridge
   health: 40
   acceptsItems: true
   requirements: [
