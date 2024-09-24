@@ -1,0 +1,27 @@
+  type: DuctBridge
+  name: мост
+  description: переносит вещи будь через конвееры или через какиелибо конвееры
+update: true
+hasItems: true
+itemCapacity: 2
+isDuct: true
+underBullets: true
+  category: distribution
+  size: 1
+  health: 60
+//На сколько блоков (плиток) может растянуться
+  range: 6
+  transportTime: 0.05
+  hasPower: false
+
+  requirements: [
+      рудний/12
+  ]
+
+  researchCostMultiplier: 0.3
+  research: {
+      parent: канал
+       requirements: [
+         рудний/125
+  ]
+ }
