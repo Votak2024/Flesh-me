@@ -1,0 +1,20 @@
+
+type: Router
+name: перенаправитель
+description: распределяет предметы по трем сторонам
+category: distribution
+health: 60
+size: 1
+capacity: 5
+
+requirements: [
+    рудний/3
+]
+
+researchCostMultiplier: 0.3
+research: {
+      parent: канал
+       requirements: [
+         рудний/100
+  ]
+ }
