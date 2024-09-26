@@ -1,0 +1,20 @@
+{
+  name: ачивка 1
+  description: наберите 3500 рудния
+  type: MessageBlock
+  health: 1
+  size: 1
+  lightningChance: 0.05
+  lightningDamage: 5
+  lightningColor: cf9991
+ requirements: [
+ рудний/1
+ ]
+  research: {
+      parent: ядро
+       requirements: [
+         рудний/3500
+   ]
+  }
+  category: logic
+}
