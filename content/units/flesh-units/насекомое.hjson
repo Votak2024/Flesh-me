@@ -1,0 +1,22 @@
+type: crawl
+name: насекомое
+description: этот юнит ползает по стенам и его основная цель это ядро
+template: ErekirUnitType
+health: 560
+flying: false
+range: 1
+speed: 0.6
+armor: 3
+hitSize: 8
+omniMovement: false
+rotateSpeed: 2.6
+drownTimeMultiplier: 1.2
+segments: 3
+drawBody: false
+drawCell: false
+crushDamage: 0.2
+controller: HugAI
+targetAir: false
+segmentScl:3
+segmentPhase: 3
+segmentMag: 0.5
