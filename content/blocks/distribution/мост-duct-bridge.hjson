@@ -9,7 +9,6 @@ underBullets: true
   category: distribution
   size: 1
   health: 60
-//На сколько блоков (плиток) может растянуться
   range: 6
   transportTime: 0.05
   hasPower: false
