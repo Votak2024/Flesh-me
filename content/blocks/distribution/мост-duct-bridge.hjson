@@ -1,6 +1,6 @@
   type: DuctBridge
   name: мост
-  description: переносит вещи будь через конвееры или через какие либо конвееры
+  description: переносит вещи будь через конвееры или через какие либо вещи
 update: true
 hasItems: true
 itemCapacity: 2
